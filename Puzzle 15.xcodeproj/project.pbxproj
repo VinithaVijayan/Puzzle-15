@@ -14,6 +14,9 @@
 		8C321B1B203F5B0C009BBC0B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C321B19203F5B0C009BBC0B /* LaunchScreen.storyboard */; };
 		8C321B26203F5B0D009BBC0B /* Puzzle_15Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C321B25203F5B0D009BBC0B /* Puzzle_15Tests.swift */; };
 		8C321B31203F5B0D009BBC0B /* Puzzle_15UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C321B30203F5B0D009BBC0B /* Puzzle_15UITests.swift */; };
+		8C321B3F203F5BA7009BBC0B /* Cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C321B3E203F5BA6009BBC0B /* Cell.swift */; };
+		8C321B41203F5C43009BBC0B /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C321B40203F5C43009BBC0B /* Constants.swift */; };
+		8C321B43203F5CDB009BBC0B /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C321B42203F5CDB009BBC0B /* DataManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,9 @@
 		8C321B2C203F5B0D009BBC0B /* Puzzle 15UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Puzzle 15UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C321B30203F5B0D009BBC0B /* Puzzle_15UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Puzzle_15UITests.swift; sourceTree = "<group>"; };
 		8C321B32203F5B0D009BBC0B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8C321B3E203F5BA6009BBC0B /* Cell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cell.swift; sourceTree = "<group>"; };
+		8C321B40203F5C43009BBC0B /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		8C321B42203F5CDB009BBC0B /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +106,9 @@
 				8C321B10203F5B0C009BBC0B /* AppDelegate.swift */,
 				8C321B12203F5B0C009BBC0B /* ViewController.swift */,
 				8C321B14203F5B0C009BBC0B /* Main.storyboard */,
+				8C321B40203F5C43009BBC0B /* Constants.swift */,
+				8C321B42203F5CDB009BBC0B /* DataManager.swift */,
+				8C321B3E203F5BA6009BBC0B /* Cell.swift */,
 				8C321B17203F5B0C009BBC0B /* Assets.xcassets */,
 				8C321B19203F5B0C009BBC0B /* LaunchScreen.storyboard */,
 				8C321B1C203F5B0C009BBC0B /* Info.plist */,
@@ -260,7 +269,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				8C321B13203F5B0C009BBC0B /* ViewController.swift in Sources */,
+				8C321B43203F5CDB009BBC0B /* DataManager.swift in Sources */,
 				8C321B11203F5B0C009BBC0B /* AppDelegate.swift in Sources */,
+				8C321B3F203F5BA7009BBC0B /* Cell.swift in Sources */,
+				8C321B41203F5C43009BBC0B /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -427,9 +439,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HPZ49H3YY7;
 				INFOPLIST_FILE = "Puzzle 15/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "apple.com.Puzzle-15";
+				PRODUCT_BUNDLE_IDENTIFIER = vinitha;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -441,9 +454,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HPZ49H3YY7;
 				INFOPLIST_FILE = "Puzzle 15/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "apple.com.Puzzle-15";
+				PRODUCT_BUNDLE_IDENTIFIER = vinitha;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
